@@ -1,0 +1,5 @@
+C:\Users\User_PC\source\repos\FahrenheitToCelsius\FahrenheitToCelsius\obj\Debug\net8.0\FahrenheitToCelsius.csproj.AssemblyReference.cache
+C:\Users\User_PC\source\repos\FahrenheitToCelsius\FahrenheitToCelsius\obj\Debug\net8.0\FahrenheitToCelsius.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User_PC\source\repos\FahrenheitToCelsius\FahrenheitToCelsius\obj\Debug\net8.0\FahrenheitToCelsius.AssemblyInfoInputs.cache
+C:\Users\User_PC\source\repos\FahrenheitToCelsius\FahrenheitToCelsius\obj\Debug\net8.0\FahrenheitToCelsius.AssemblyInfo.cs
+C:\Users\User_PC\source\repos\FahrenheitToCelsius\FahrenheitToCelsius\obj\Debug\net8.0\FahrenheitToCelsius.csproj.CoreCompileInputs.cache

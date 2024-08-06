@@ -5,7 +5,7 @@
       "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
-          "build/netstandard1.0/coverlet.collector.targets": {}
+          "build/netstandard1.0/_._": {}
         }
       },
       "Microsoft.CodeCoverage/17.8.0": {
@@ -17,8 +17,7 @@
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
         },
         "build": {
-          "build/netstandard2.0/Microsoft.CodeCoverage.props": {},
-          "build/netstandard2.0/Microsoft.CodeCoverage.targets": {}
+          "build/netstandard2.0/_._": {}
         }
       },
       "Microsoft.NET.Test.Sdk/17.8.0": {
@@ -34,11 +33,10 @@
           "lib/netcoreapp3.1/_._": {}
         },
         "build": {
-          "build/netcoreapp3.1/Microsoft.NET.Test.Sdk.props": {},
-          "build/netcoreapp3.1/Microsoft.NET.Test.Sdk.targets": {}
+          "build/netcoreapp3.1/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -306,7 +304,7 @@
           }
         },
         "build": {
-          "build/netcoreapp3.1/Microsoft.TestPlatform.TestHost.props": {}
+          "build/netcoreapp3.1/_._": {}
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -1655,12 +1653,10 @@
           "xunit.extensibility.execution": "[2.5.3]"
         },
         "build": {
-          "build/xunit.core.props": {},
-          "build/xunit.core.targets": {}
+          "build/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/xunit.core.props": {},
-          "buildMultiTargeting/xunit.core.targets": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "xunit.extensibility.core/2.5.3": {
@@ -1706,7 +1702,23 @@
           "lib/net6.0/_._": {}
         },
         "build": {
-          "build/net6.0/xunit.runner.visualstudio.props": {}
+          "build/net6.0/_._": {}
+        }
+      },
+      "FToCTest/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": "17.8.0",
+          "coverlet.collector": "6.0.0",
+          "xunit": "2.5.3",
+          "xunit.runner.visualstudio": "2.5.3"
+        },
+        "compile": {
+          "bin/placeholder/FToCTest.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FToCTest.dll": {}
         }
       }
     }
@@ -5497,14 +5509,16 @@
         "xunit.runner.visualstudio.2.5.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "FToCTest/1.0.0": {
+      "type": "project",
+      "path": "../FToCTest/FToCTest.csproj",
+      "msbuildProject": "../FToCTest/FToCTest.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.NET.Test.Sdk >= 17.8.0",
-      "coverlet.collector >= 6.0.0",
-      "xunit >= 2.5.3",
-      "xunit.runner.visualstudio >= 2.5.3"
+      "FToCTest >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5513,11 +5527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FToCTest\\FToCTest.csproj",
-      "projectName": "FToCTest",
-      "projectPath": "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FToCTest\\FToCTest.csproj",
+      "projectUniqueName": "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FahrenheitToCelsius\\FahrenheitToCelsius.csproj",
+      "projectName": "FahrenheitToCelsius",
+      "projectPath": "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FahrenheitToCelsius\\FahrenheitToCelsius.csproj",
       "packagesPath": "C:\\Users\\User_PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FToCTest\\obj\\",
+      "outputPath": "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FahrenheitToCelsius\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User_PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5533,7 +5547,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FToCTest\\FToCTest.csproj": {
+              "projectPath": "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FToCTest\\FToCTest.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5550,24 +5568,6 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
-        "dependencies": {
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "[17.8.0, )"
-          },
-          "coverlet.collector": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          },
-          "xunit": {
-            "target": "Package",
-            "version": "[2.5.3, )"
-          },
-          "xunit.runner.visualstudio": {
-            "target": "Package",
-            "version": "[2.5.3, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

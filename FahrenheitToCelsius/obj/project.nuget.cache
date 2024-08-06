@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AJ/ZEYuAu1EprvsrwCILC/dJSU39RtXQXVED6bheHm4wQZTAD6Gl0p8w58q36Zgwlq4xMyqktdOkUZr7ZwHObQ==",
+  "dgSpecHash": "1rOrp5LwfnXLXDGAZejeg1bWA6cAXyrTGLo+zi+v3zvoMrcAO6OxTR3o7I/S4xoy4C969KO5UdN0qNummJhXRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FToCTest\\FToCTest.csproj",
+  "projectFilePath": "C:\\Users\\User_PC\\source\\repos\\FahrenheitToCelsius\\ConverterFahrenheitTiCelsius\\FahrenheitToCelsius\\FahrenheitToCelsius.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User_PC\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\User_PC\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
